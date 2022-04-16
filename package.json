@@ -1,0 +1,25 @@
+{
+  "name": "medium",
+  "version": "1.0.0",
+  "description": "medium mern app tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "app.js",
+    "dev": "concurrently \" nodemon app.js \" \"npm start --prefix zachbooks\" "
+  },
+  "author": "Zirachdev",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.1.0",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "touch": "^3.1.0",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
